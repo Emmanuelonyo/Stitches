@@ -1,0 +1,25 @@
+main{
+    margin: auto 20px auto 20px;
+}
+
+.events{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    width: 80%;
+    padding: 20px 10px;
+    background-color: lightsalmon;
+    margin: 20px 0;
+}
+
+.date-icon-cont{
+    display: flex;
+    flex-direction: column;
+    background-color: cornsilk;
+
+}
+.event-info-cont{
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+
+}
