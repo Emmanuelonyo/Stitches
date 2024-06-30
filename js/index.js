@@ -122,18 +122,6 @@ var data = {
 
 document.addEventListener('DOMContentLoaded', populateEvents())
 
-// loading data to display after DOM completes loading
-//document.addEventListener('DOMContentLoaded', 
-//    fetchContentData('../data/items.json')
-//    .then(data =>
-//    {
-//        fetchedData = data;
-//        console.log(JSON.stringify(data));
-//    })
-//    .catch(error => {
-//        console.log(error);
-//    })
-//)
 // Parse event data
 function populateEvents(){
     let eventsData = data.events;
