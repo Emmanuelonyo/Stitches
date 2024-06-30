@@ -1,0 +1,120 @@
+{
+    "events":[
+        {
+            "name": "Project Presentation",
+            "startDay": "Tue",
+            "endDay": "Tue",
+            "startMonth": "July",
+            "endMonth": "Aug",
+            "startDate": 28,
+            "endDate": 3
+        },
+        {
+            "name": "Examination(s)",
+            "startDay": "Mon",
+            "endDay": "Fri",
+            "startMonth": "Aug",
+            "endMonth": "Aug",
+            "startDate": 3,
+            "endDate": 7
+        },  
+        {
+            "name": "Esther's 5 Years Anniversary",
+            "startDay": "Wed",
+            "endDay": "Wed",
+            "startMonth": "Aug",
+            "endMonth": "Aug",
+            "startDate": 4,
+            "endDate": 4
+        },
+        {
+            "name": "Kemi's 2 Years Anniversary",
+            "startDay": "Fri",
+            "endDay": "Fri",
+            "startMonth": "Aug",
+            "endMonth": "Aug",
+            "startDate": 7,
+            "endDate": 7
+        },
+        {
+            "name": "Kola's 6 Years Anniversary",
+            "startDay": "Thurs",
+            "endDay": "Thurs",
+            "startMonth": "Sept",
+            "endMonth": "Sept",
+            "startDate": 12,
+            "endDate": 12
+        },
+        {
+            "name": "Pastor Flow's 2 Years Anniversary",
+            "startDay": "Mon",
+            "endDay": "Mon",
+            "startMonth": "Sept",
+            "endMonth": "Sept",
+            "startDate": 16,
+            "endDate": 16
+        },
+        {
+            "name": "Wavy's 4 Years Anniversary",
+            "startDay": "Thurs",
+            "endDay": "Thurs",
+            "startMonth": "Sept",
+            "endMonth": "Sept",
+            "startDate": 26,
+            "endDate": 26
+        },
+        {
+            "name": "End Of The Year Party",
+            "startDay": "Sat",
+            "endDay": "Sat",
+            "startMonth": "Nov",
+            "endMonth": "Nov",
+            "startDate": 30,
+            "endDate": 30
+        }
+
+    ],
+    "products":[
+        {
+            "imageSrc": "../img/tshirt.jpeg",
+            "productName": "T Shirt",
+            "productDescription": "Original by Stitches"
+        },
+        {
+            "imageSrc": "../img/tshirt.jpeg",
+            "productName": "T Shirt",
+            "productDescription": "Original by Stitches"
+        },
+        {
+            "imageSrc": "../img/tshirt.jpeg",
+            "productName": "T Shirt",
+            "productDescription": "Original by Stitches"
+        },
+        {
+            "imageSrc": "../img/tshirt.jpeg",
+            "productName": "T Shirt",
+            "productDescription": "Original by Stitches"
+        },
+        {
+            "imageSrc": "../img/tshirt.jpeg",
+            "productName": "T Shirt",
+            "productDescription": "Original by Stitches"
+        },
+        {
+            "imageSrc": "../img/tshirt.jpeg",
+            "productName": "T Shirt",
+            "productDescription": "Original by Stitches"
+        },
+        {
+            "imageSrc": "../img/tshirt.jpeg",
+            "productName": "T Shirt",
+            "productDescription": "Original by Stitches"
+        },
+        {
+            "imageSrc": "../img/tshirt.jpeg",
+            "productName": "T Shirt",
+            "productDescription": "Original by Stitches"
+        }
+        
+    ]
+}
