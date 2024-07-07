@@ -1,3 +1,9 @@
+---
+noteId: "df8d81e03ca811efabbf45936a869dfa"
+tags: []
+
+---
+
 
 ---
 # Stitches
