@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inquiries and Appointments - Stitches Fashion Hub</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/inquiries.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="mainHeader">Stitches Fashion Hub</h1>
+        <nav>
+            <ul id="navItemsCont">
+                <li id="home" class="navItems" >
+                    <a href="/">Home</a>
+                </li>
+                <li id="showCase" class="navItems">
+                    <a href="/showcase.html">Product Showcase</a>
+                </li>
+                <li id="trustees" class="navItems">
+                    <a href="/trustees.html">Board of Trustees</a>
+                </li>
+                <li id="inquiries" class="navItems">
+                    <a href="/inquiries.html">Inquiries and Appointments</a>
+                </li>
+                <li id="events" class="navItems" >
+                    <a href="/events.html">Upcoming Events</a>
+                </li>
+            </ul>
+        </nav>
+        <marquee>Stay tuned for our grand opening event on July 20th!</marquee>
+    </header>
+    <main>
+        <h2>Inquiries and Appointments</h2>
+        <form id="appointment-form">
+            <fieldset>
+                <legend class="formLegends">Personal Details</legend>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </fieldset>
+            <fieldset>
+                <legend class="formLegends">Inquiry Details</legend>
+                <label for="date">Preferred Appointment Date</label>
+                <input type="date" id="date" name="date" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+            </fieldset>
+
+            <button id="submitBtn" type="submit">Submit</button>
+        </form>
+        <div id="customAlert" class="alert">
+            <div class="alert-content">
+                <span class="close">&times;</span>
+                <p id="alert-message"></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Stitches Fashion Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="/js/index.js"></script>
+</body>
+
+</html>

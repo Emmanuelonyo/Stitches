@@ -74,7 +74,7 @@ We welcome contributions to enhance the functionality and design of Stitches. To
 
 ## Team
 
-- **Member 1**: [Name](https://github.com/)
+- **Member 1**: [Emmanuel Onyo](https://github.com/emmanuelonyo)
 - **Member 2**: [Name](https://github.com/)
 - **Member 3**: [Name](https://github.com/)
 - **Member 4**: [Name](https://github.com/)
