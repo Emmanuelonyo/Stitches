@@ -5,21 +5,18 @@ main{
 .events{
     display: grid;
     grid-template-columns: 1fr 5fr;
+    justify-content: space-around;
     width: 80%;
     padding: 20px 10px;
-    background-color: lightsalmon;
+     background: linear-gradient(90deg, rgba(192,217,238,1) 0%, rgba(49,49,177,1) 80%, rgba(2,0,36,1) 100%);
     margin: 20px 0;
 }
 
 .date-icon-cont{
     display: flex;
     flex-direction: column;
-    background-color: cornsilk;
-
 }
 .event-info-cont{
     display: flex;
     flex-direction: column;
-    background-color: greenyellow;
-
 }
