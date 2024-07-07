@@ -1,3 +1,9 @@
+---
+noteId: "df8d81e03ca811efabbf45936a869dfa"
+tags: []
+
+---
+
 
 ---
 # Stitches
@@ -74,7 +80,7 @@ We welcome contributions to enhance the functionality and design of Stitches. To
 
 ## Team
 
-- **Member 1**: [Name](https://github.com/)
+- **Member 1**: [Emmanuel Onyo](https://github.com/emmanuelonyo)
 - **Member 2**: [Name](https://github.com/)
 - **Member 3**: [Name](https://github.com/)
 - **Member 4**: [Name](https://github.com/)

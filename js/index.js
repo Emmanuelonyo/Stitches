@@ -77,47 +77,47 @@ var data = {
     ],
     products:[
         {
-            imageSrc: "../img/tshirt.jpeg",
+            imageSrc: "/img/tshirt.jpeg",
             productName: "T Shirt",
             productDescription: "Original by Stitches"
         },
         {
-            imageSrc: "../img/tshirt.jpeg",
+            imageSrc: "/img/tshirt.jpeg",
             productName: "T Shirt",
             productDescription: "Original by Stitches"
         },
         {
-            imageSrc: "../img/tshirt.jpeg",
+            imageSrc: "/img/tshirt.jpeg",
             productName: "T Shirt",
             productDescription: "Original by Stitches"
         },
         {
-            imageSrc: "../img/tshirt.jpeg",
+            imageSrc: "/img/tshirt.jpeg",
             productName: "T Shirt",
             productDescription: "Original by Stitches"
         },
         {
-            imageSrc: "../img/tshirt.jpeg",
+            imageSrc: "/img/tshirt.jpeg",
             productName: "T Shirt",
             productDescription: "Original by Stitches"
         },
         {
-            imageSrc: "../img/tshirt.jpeg",
+            imageSrc: "/img/tshirt.jpeg",
             productName: "T Shirt",
             productDescription: "Original by Stitches"
         },
         {
-            imageSrc: "../img/tshirt.jpeg",
+            imageSrc: "/img/tshirt.jpeg",
             productName: "T Shirt",
             productDescription: "Original by Stitches"
         },
         {
-            imageSrc: "../img/tshirt.jpeg",
+            imageSrc: "/img/tshirt.jpeg",
             productName: "T Shirt",
             productDescription: "Original by Stitches"
         },
         {
-            imageSrc: "../img/tshirt.jpeg",
+            imageSrc: "/img/tshirt.jpeg",
             productName: "T Shirt",
             productDescription: "Original by Stitches"
         }
@@ -149,17 +149,17 @@ function populateContent(){
     styleNavItems();
 
     // load products when user is on the showcase page
-    if (window.location.pathname.endsWith("/html/showcase.html")) {
+    if (window.location.pathname.endsWith("/showcase.html")) {
         loadProducts();
     } 
     
     // add submit eventlistener on the appointment form
-    if (window.location.pathname.endsWith("/html/inquiries.html")) {
+    if (window.location.pathname.endsWith("/inquiries.html")) {
         validateAndSubmitForm();
     } 
     
     // load events when user is on the events page
-    if (window.location.pathname.endsWith("/html/events.html")) {
+    if (window.location.pathname.endsWith("/events.html")) {
         loadEvents();
     } 
 }
@@ -202,7 +202,7 @@ function validateAndSubmitForm(){
         }
 
         if (formIsValid) {
-            alertMessage.innerHTML = "Scheduling an appointment for " + name + "...";
+            alertMessage.innerHTML = "Scheduling an appointment for " + name + ".";
             alert.style.display = "block";
             
             //submit form
